@@ -49,7 +49,7 @@ app.post('/generate', async (req, res) => {
       body: JSON.stringify({
         contents: [{
           role: "user",
-          parts: [{ text: `Create a visually stunning, premium website for: ${keyword}.` }]
+          parts: [{ text: `Create a visually stunning, premium website strictly focused on this exact topic/industry: "${keyword}". All text, branding, and content must perfectly match the context of a ${keyword} business.` }]
         }],
         systemInstruction: {
           parts: [{ text: "You are an expert, award-winning frontend developer and designer. Generate a single HTML file with embedded Tailwind CSS via CDN. Design aesthetic MUST BE a maximal, rich, but exceptionally clean UI. Prioritize extremely generous whitespace, perfect padding/margin spacing, and beautifully curated, harmonious color palettes (high contrast, premium feel). Include elegant typography (import Inter or Poppins via Google Fonts), glassmorphism where appropriate, smooth hover micro-animations, and subtle gradients. Use placeholder images (e.g., picsum.photos). Include cohesive sections: Navbar, Hero, Features/Services, Testimonials, and Footer. Ensure robust mobile responsiveness. DO NOT include conversational text. DO NOT wrap output in markdown (NO ```html wrappers). Return ONLY the raw valid HTML string." }]
