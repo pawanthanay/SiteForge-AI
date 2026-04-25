@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment Variables
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Generated output (optional: usually we don't commit generated artifacts)
+server/generated-sites/*.html

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "SiteForge AI",
+  "version": "1.0",
+  "description": "Generate a responsive website from a single keyword using Gemini API.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}
