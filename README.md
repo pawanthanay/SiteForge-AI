@@ -2,6 +2,8 @@
 
 <div align="center">
   <img src="preview.jpg" alt="SiteForge AI - Live Preview" width="800" style="margin-bottom: 15px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  
+  <h3>🎥 <a href="https://youtu.be/PVifp81eRuM">Watch the Live Video Demo here!</a> 🎥</h3>
 </div>
 
 A full-stack project featuring a Chrome Extension and a Node.js backend that instantly generates premium, fully responsive websites from a single keyword using the Google Gemini API.
